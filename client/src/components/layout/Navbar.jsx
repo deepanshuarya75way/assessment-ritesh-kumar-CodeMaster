@@ -91,7 +91,16 @@ export default function Navbar() {
               className="hidden lg:flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#ffa116]/10 text-[#ffa116] border border-[#ffa116]/30 text-xs font-semibold hover:bg-[#ffa116]/20 transition-all"
             >
               <Flame className="w-3.5 h-3.5 fill-[#ffa116]" />
-              <span>Daily Challenge</span>
+              <span>DSA Challenge</span>
+              <ChevronRight className="w-3 h-3" />
+            </Link>
+
+             <Link
+              to="/problems/two-sum"
+              className="hidden lg:flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#ffa116]/10 text-[#ffa116] border border-[#ffa116]/30 text-xs font-semibold hover:bg-[#ffa116]/20 transition-all"
+            >
+              <Flame className="w-3.5 h-3.5 fill-[#ffa116]" />
+              <span>frontend challenge</span>
               <ChevronRight className="w-3 h-3" />
             </Link>
 

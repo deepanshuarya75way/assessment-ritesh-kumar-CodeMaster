@@ -62,6 +62,43 @@ int main() {
     extension: 'py',
     starterCode: `print("Hello World")
 `
+  },
+
+  html: {
+    id: 'html',
+    name: 'html',
+    judge0Id: 91,
+    monacoLang: 'html',
+    extension: 'html',
+    starterCode: `<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#1a1a1a] text-[#eff1f6] antialiased selection:bg-[#ffa116]/30 selection:text-[#ffa116]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+`
+  },
+  css: {
+    id: 'css',
+    name: 'css(stylesheet)',
+    judge0Id: null,
+    monacoLang: 'css',
+    extension: 'css',
+    starterCode: `body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #effif6
+    }`
+   
   }
 };
 

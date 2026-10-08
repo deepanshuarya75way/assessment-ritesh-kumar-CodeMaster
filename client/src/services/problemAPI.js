@@ -25,6 +25,16 @@ const problems = [
     summary: 'Sort intervals and merge neighbors when they overlap.',
     description:
       'Given a collection of intervals, merge all overlapping intervals and return an array of the non-overlapping intervals that cover all the intervals in the input.'
+  },
+
+  {
+    id: '4',
+    title: 'Two Sum',
+    difficulty: 'Easy',
+    short: 'Find indices of the two numbers that add up to the target.',
+    summary: 'Return the indices of the two numbers whose sum matches target.',
+    description:
+      'Given an array of integers and a target value, return the indices of the two numbers that add up to the target. The problem is ideal for practicing hash-maps and two-pointer strategies.'
   }
 ];
 
